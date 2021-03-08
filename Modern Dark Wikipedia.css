@@ -1,0 +1,299 @@
+/* ==UserStyle==
+@name        Modern Dark Wikipedia
+@description Dark mode for Wikipedia
+@match       *://*.wikipedia.org*
+==/UserStyle== */
+body{
+    background-color:#202020;
+}
+
+.mw-body{
+    background-color:#2a2a2a;
+    border:none;
+    color:#ddd;
+    padding:2.5em;
+    margin-top:0px;
+}
+#mw-head{
+    background-color:#202020;
+    height:80px;
+}
+#mw-panel{
+    background-color:#202020;
+}
+#mw-page-base{
+    background:none;
+}
+.mw-wiki-logo{
+
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+
+}
+.mw-collapsible > div{
+    background-color:#2a2a2a !important;
+}
+.vector-menu-tabs{
+    background-color:#202020;
+    padding:0px;
+}
+.vector-menu-tabs li a, .vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3{
+    background-color:#202020;
+    display:block;
+    height:29px;
+    color:#888;
+    background-image:none;
+    padding:6px 12px 0px 12px;
+}
+.vector-menu-tabs .selected a, .vector-menu-tabs .selected a:visited{
+    color:#ddd;
+    background-color:#2a2a2a;
+    padding:6px 12px 0px 12px;
+}
+#right-navigation, #left-navigation{
+    margin-top:45px;
+}
+.mw-body, #mw-head, .infobox {
+    border:none;
+}
+.mw-parser-output #mp-topbanner{
+    background-color:#202020 !important;
+    border:none;
+    color:white !important;
+    padding:8px;
+}
+.mw-parser-output #mp-left, .mw-parser-output #mp-left, .mw-parser-output #mp-right, .mw-parser-output #mp-middle, .mw-parser-output #mp-lower, .mw-parser-output #mp-other-lower{
+    background-color:#202020 !important;
+    border:none;
+    padding:2px !important;
+}
+
+.mw-parser-output #mp-left .mp-h2 {
+    background-color:#344634 !important;
+    color:#ddd;
+    padding:8px 12px !important;
+    border:none;
+}
+.mw-parser-output #mp-right .mp-h2{
+    background-color:#093F71 !important;
+    color:#ddd;
+    padding:8px 12px !important;
+    border:none;
+}
+.mw-parser-output #mp-tfl-h2{
+    background-color:#A36966 !important;
+    color:#ddd;
+    padding:8px 12px !important;
+    border:none;
+}
+.mw-parser-output #mp-tfp-h2{
+    background-color:#4A3F8D !important;
+    color:#ddd;
+    padding:8px 12px !important;
+    border:none;
+}
+.mw-parser-output #mp-other-lower .mp-h2{
+    background-color:#636963 !important;
+    color:#ddd;
+    padding:8px 12px !important;
+    border:none;
+}
+.mw-parser-output #mp-topbanner, .mw-parser-output .mp-h2, .mw-parser-output #mp-left{
+    color:#ddd !important;
+}
+.thumbcaption{
+    color:#ddd !important;
+}
+p {
+    color:#ddd;
+}
+
+.vector-menu-portal h3{
+    color:#ddd;
+    background-image:none;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#ddd;
+    border-color:#888;
+}
+.mw-body-content h2{
+    padding-bottom:3px;
+}
+a, .vector-menu-portal .body li a, .vector-menu-portal .vector-menu-content li a{
+    color:#64c1f7;
+}
+a.new{
+    color:#FE2036;
+}
+.mw-parser-output a.extiw, .mw-parser-output a.external{
+    color:#64c1f7;
+}
+
+a:visited, .vector-menu-portal .body li a:visited, .vector-menu-portal .vector-menu-content li a:visited {
+    color:#0a7ec2;
+}
+.mw-parser-output a.extiw:visited, .mw-parser-output a.external:visited{
+    color:#0a7ec2;
+}
+ul {
+    list-style-image: none;
+}
+
+#pt-anonuserpage{
+    color:#ddd;
+}
+
+table.ambox{
+    background-color:#202020;
+    border-top:none;
+    border-right:none;
+    border-bottom:none;
+    padding:6px 8px;
+}
+div.thumbinner{
+    background-color:#202020;
+    border:none;
+    padding:10px 9px 4px 9px;
+}
+.thumbimage{
+    border:none;
+    margin-bottom:2px;
+}
+.toc {
+    padding:8px 14px;
+    background-color:#202020;
+    border:none;
+    
+}
+.tocnumber{
+    color:#ddd;
+}
+.toctogglelabel{
+    color:#64c1f7;
+}
+
+#searchInput {
+    background-color:#202020;
+    border-color:#2a2a2a;
+    border-width:5px;
+    border-radius:0px;
+    color:#ddd;
+    padding:15px 10px;
+}
+#p-search form{
+    margin:0px;
+}
+.infobox{
+    background-color:#202020;
+    border:10px solid #202020;
+    padding:10px 9px 0px 9px;
+    color:white;
+}
+.infobox td{
+    background-color:#202020 !important;
+}
+.infobox.geography td, .infobox.geography th{
+    border-top:2px solid #2a2a2a;
+    border-bottom:2px solid #2a2a2a;
+    padding: 8px 0px
+}
+.infobox.geography .mergedtoprow td, .infobox.geography .mergedtoprow th{
+    border:none;
+}
+.above{
+    background-color:#344634 !important;
+    color:#ddd;
+    padding:6px;
+}
+.thumbimage{
+    background-color:#202020;
+}
+.thumborder{
+    border:none;
+}
+
+#content .gallerybox div.thumb{
+    background-color:#202020;
+    border-color:#202020;
+}
+.wikitable{
+    background-color:#202020;
+    color:#ddd;
+    border:10px solid #202020;
+}
+.wikitable > tr > th, .wikitable > * > tr > th{
+    background-color:#2a2a2a;
+}
+.wikitable > tr > th, .wikitable > tr > td, .wikitable > * > tr > th, .wikitable > * > tr > td{
+    border-color:#2a2a2a;
+}
+
+.navbox{
+    background-color:#202020;
+    padding:8px !important;
+    border:none;
+}
+.navbox th, .navbox-title{
+    background-color:#2a2a2a !important;
+}
+.navbox > tbody > tr > td {
+    background:#202020 !important;
+}
+.mw-ui-button{
+    background-color:#2a2a2a;
+    color:#ddd;
+    border:none;
+    padding:4px 14px 5px 32px !important;
+}
+.mw-ui-button:hover{
+    background-color:#2a2a2a;
+    color:#ddd;
+    border:none;
+}
+.mw-interlanguage-selector, .mw-interlanguage-selector:active{
+    background-position: left 10px top 7px;
+    color:#ddd;
+}
+.mw-interlanguage-selector.selector-open{
+    background-color:#2a2a2a;
+}
+.wb-langlinks-link{
+    float:left;
+    text-align:left;
+}
+.catlinks{
+    background-color:#202020;
+    border:none;
+    padding:10px 13px;
+}
+.mw-parser-output .portal, .mw-parser-output .portal.tright, .mw-parser-output .portal.tleft{
+    border:none;
+}
+.mw-parser-output .portal > ul{
+    background-color:#202020 !important;
+    padding:6px !important;
+}
+.mbox-small{
+    background-color:#202020 !important;
+    color:#ddd !important;
+    border:none !important;
+}
+.reference-text > span{
+    color:#ddd !important;
+}
+table.ombox{
+    background-color:#202020;
+    border:6px #202020 solid;
+}
+.mw-parser-output .module-shortcutboxplain{
+    background-color:#202020 !important;
+}
+.plainlist ol, .plainlist ul{
+    border-top:2px #2a2a2a solid !important;
+}
+.mw-footer li{
+    color:#ddd;
+}
+.mwe-popups, .mwe-popups.mwe-popups-is-not-tall, .mwe-popups-fade-in-up{
+    background:#202020 !important;
+}
