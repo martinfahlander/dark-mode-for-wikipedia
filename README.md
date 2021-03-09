@@ -1,2 +1,2 @@
-# Modern and dark web userscripts
-Modern and dark userscript for Wikipedia
+# Modern dark web userscripts
+Dark userscripts for the modern web
