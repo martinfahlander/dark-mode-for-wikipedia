@@ -1,2 +1,2 @@
 # Dark Mode for Wikipedia
-A dark userscript for Wikipedia
+A userscript for Wikipedia enabling a dark reading experience
