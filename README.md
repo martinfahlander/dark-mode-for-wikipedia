@@ -1,2 +1,2 @@
-# Dark userscripts
-Dark userscripts for the modern web
+# Dark Mode for Wikipedia
+A dark userscript for Wikipedia
